@@ -54,12 +54,15 @@ function App() {
     };
   return (
             <div><h1>Photo Verification</h1>
-            {/* <Passportocr/> */}
+            <Passportocr/>
            
-            <input type="file" accept="image/png" onChange={(e) => handleFileChange(e, setLiveImage1)} />
+            {/* <input type="file" accept="image/png" onChange={(e) => handleFileChange(e, setLiveImage1)} />
             <input type="file" accept="image/png" onChange={(e) => handleFileChange(e, setLiveImage2)} />
             <input type="file" accept="image/png" onChange={(e) => handleFileChange(e, setIdPhoto)} />
-            <button onClick={handleSubmit}>Verify</button><p>{result}</p>
+            <button onClick={handleSubmit}>Verify</button><p>{result}</p> */}
             </div>  );
 }
 export default App;
+
+
+// "proxy": "https://bws.bioid.com",
